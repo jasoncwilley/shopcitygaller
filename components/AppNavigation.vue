@@ -5,7 +5,8 @@
     <nav>
       <div class="capsule">
         <nuxt-link exact to="/">
-          <title id="shopicon">
+          <img src='logo.png' width="50" height="50">
+            <title id="shopicon">
               Shop City Gallery
             </title>
            </svg>

@@ -1,7 +1,7 @@
 {
   "publicPath": "/_nuxt/",
   "all": [
-    "layouts/default.5dc4b48a089e45046776.js",
+    "layouts/default.9edf2577d29008daf27f.js",
     "pages/cart.3e9be3992f276e1640b1.js",
     "pages/index.497b53ff9c78f6a9a7b8.js",
     "pages/women.e0a417c788515900ab70.js",
@@ -9,17 +9,17 @@
     "pages/sale.d83a2a64120153e5f61c.js",
     "vendor.3f5c327b82e314b7d85d.js",
     "app.0d2d56b004076c6fafdb.js",
-    "manifest.7d4abeb6313f70d032f9.js",
+    "manifest.c182093b6fed01a3f87a.js",
     "LICENSES",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.7d4abeb6313f70d032f9.js",
+    "manifest.c182093b6fed01a3f87a.js",
     "vendor.3f5c327b82e314b7d85d.js",
     "app.0d2d56b004076c6fafdb.js"
   ],
   "async": [
-    "layouts/default.5dc4b48a089e45046776.js",
+    "layouts/default.9edf2577d29008daf27f.js",
     "pages/cart.3e9be3992f276e1640b1.js",
     "pages/index.497b53ff9c78f6a9a7b8.js",
     "pages/women.e0a417c788515900ab70.js",
