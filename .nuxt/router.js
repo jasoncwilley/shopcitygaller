@@ -3,11 +3,11 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _115b3184 = () => import('../pages/women.vue' /* webpackChunkName: "pages/women" */).then(m => m.default || m)
-const _d499b9d4 = () => import('../pages/men.vue' /* webpackChunkName: "pages/men" */).then(m => m.default || m)
-const _48d9ad10 = () => import('../pages/cart.vue' /* webpackChunkName: "pages/cart" */).then(m => m.default || m)
-const _8847f292 = () => import('../pages/sale.vue' /* webpackChunkName: "pages/sale" */).then(m => m.default || m)
-const _cfb003dc = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _444f3c92 = () => import('../pages/women.vue' /* webpackChunkName: "pages/women" */).then(m => m.default || m)
+const _0c3767cf = () => import('../pages/men.vue' /* webpackChunkName: "pages/men" */).then(m => m.default || m)
+const _ba440112 = () => import('../pages/cart.vue' /* webpackChunkName: "pages/cart" */).then(m => m.default || m)
+const _15e0591e = () => import('../pages/sale.vue' /* webpackChunkName: "pages/sale" */).then(m => m.default || m)
+const _7eadf88b = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
 
@@ -69,27 +69,27 @@ export function createRouter () {
     routes: [
 		{
 			path: "/women",
-			component: _115b3184,
+			component: _444f3c92,
 			name: "women"
 		},
 		{
 			path: "/men",
-			component: _d499b9d4,
+			component: _0c3767cf,
 			name: "men"
 		},
 		{
 			path: "/cart",
-			component: _48d9ad10,
+			component: _ba440112,
 			name: "cart"
 		},
 		{
 			path: "/sale",
-			component: _8847f292,
+			component: _15e0591e,
 			name: "sale"
 		},
 		{
 			path: "/",
-			component: _cfb003dc,
+			component: _7eadf88b,
 			name: "index"
 		}
     ],
