@@ -18,7 +18,7 @@ footer {
   margin-top: 10px;
   width: 100%;
   height: 75px;
-  font-size: 25px;
+  font-size: 10px;
 }
 
 a,

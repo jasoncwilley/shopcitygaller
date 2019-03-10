@@ -5,8 +5,7 @@
     <nav>
       <div class="capsule">
         <nuxt-link exact to="/">
-          <img src='logo.png' width="50" height="50">
-            <title id="shopicon">
+          <title id="shopicon">
               Shop City Gallery
             </title>
            </svg>
@@ -55,7 +54,7 @@ export default {
 
 nav {
 max-width: 800px;
-
+text-align: center;
   height: 60px;
   background: white;
   margin-left: 20px;
