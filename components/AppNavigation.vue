@@ -3,7 +3,7 @@
   <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
 
     <nav>
-      <div class="capsulee">
+      <div class="capsule">
         <nuxt-link exact to="/">
           <img src='logo.png' width="50" height="50">
             <title id="shopicon">
@@ -12,9 +12,9 @@
            </svg>
         </nuxt-link>
         <ul>
-          <nuxt-link to="/photo"><li>Photos</li></nuxt-link>
-          <nuxt-link to="/painting"><li>Paintings</li></nuxt-link>
-          <nuxt-link to="/sale"><li>Sale</li></nuxt-link>
+          <nuxt-link to="/photo"><button>Photos</button></nuxt-link>
+          <nuxt-link to="/painting"><button>Paintings</button></nuxt-link>
+          <nuxt-link to="/sale"><button>Sale</button></nuxt-link>
         </ul>
         <nuxt-link to="/cart">
           <div class="cartitem">
@@ -49,8 +49,9 @@ export default {
 
 .capsule {
   display: flex;
-  justify-content: space-between;
+position: absolute;
   align-items: center;
+  justify-content: center;
 }
 
 nav {
@@ -58,25 +59,27 @@ max-width: 800px;
 text-align: center;
   height: 60px;
   background: white;
-  margin-left: 20px;
-  margin-right: 20px;
+
 }
 
 ul {
-  padding-left: 0;
+  padding-top: 20px;
   display: flex;
-  list-style: none outside none;
+  list-style-type: none;
   justify-content: center;
   align-items: center;
-  position: absolute;
-}
+  }
 
-li {
-  padding: 0 50px;
+button {
+  padding: 0 10px;
   font-family: 'Fugaz One', cursive;
   font-size: 20px;
-  color: purple;
+  color:rgb(212, 11, 27);
   position: relative;
+  display: inline;
+  border-width: 3px;
+  border-color: blue;
+  margin-bottom: 20px;
 
 }
 
@@ -88,7 +91,7 @@ a:active {
 }
 
 .cartitem {
-  position: relatiabsove;
+  position: relative;
   float: right;
 }
 
@@ -102,14 +105,12 @@ a:active {
   width: 30px;
   height: 30px;
   font-size: 20px;
-  margin: -5px 0 0 20px;
+  margin: 0 0 0 20px;
   border-radius: 1000px;
   font-weight: 700;
 }
 img {
 padding-top: 10px;
-padding-left: 10px;
-position: absolute;
-}
 
+}
 </style>
