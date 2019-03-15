@@ -44,10 +44,10 @@ export default {
 h1 {
 font-family: 'Fugaz One', cursive;
   color: white;
-  position: relative;
+  position: center;
   z-index: 100;
   font-size: 30px;
-  padding: 20px 80px;
+  padding: 25px 90px;
   min-width: 450px;
 }
 
@@ -74,5 +74,7 @@ font-family: 'Fugaz One', cursive;
 img {
 width: 100px;
 height: 100px;
+padding-left: 15px;
+padding-right: 15px;
 }
 </style>

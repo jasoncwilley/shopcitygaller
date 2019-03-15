@@ -3,7 +3,7 @@
   <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
 
     <nav>
-      <div class="capsule">
+      <div class="capsulee">
         <nuxt-link exact to="/">
           <img src='logo.png' width="50" height="50">
             <title id="shopicon">
@@ -12,8 +12,8 @@
            </svg>
         </nuxt-link>
         <ul>
-          <nuxt-link to="/women"><li>Photos</li></nuxt-link>
-          <nuxt-link to="/men"><li>Paintings</li></nuxt-link>
+          <nuxt-link to="/photo"><li>Photos</li></nuxt-link>
+          <nuxt-link to="/painting"><li>Paintings</li></nuxt-link>
           <nuxt-link to="/sale"><li>Sale</li></nuxt-link>
         </ul>
         <nuxt-link to="/cart">
@@ -68,6 +68,7 @@ ul {
   list-style: none outside none;
   justify-content: center;
   align-items: center;
+  position: absolute;
 }
 
 li {
@@ -87,7 +88,7 @@ a:active {
 }
 
 .cartitem {
-  position: relative;
+  position: relatiabsove;
   float: right;
 }
 
@@ -107,6 +108,8 @@ a:active {
 }
 img {
 padding-top: 10px;
-padding-left: 10px
+padding-left: 10px;
+position: absolute;
 }
+
 </style>

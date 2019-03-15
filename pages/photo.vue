@@ -1,11 +1,11 @@
 <template>
   <main class="capsule">
-    <app-masthead img="banner-ppl" title="Paintings" bkcolor="#474598"/>
+    <app-masthead img="banner-ppl-women" title="Photos" bkcolor="#e82319"/>
     <div class="contain">
       <app-sidebar :pricerange.sync="highprice"/>
       <transition-group name="items" tag="section" class="content">
         <app-item
-          v-for="(item, index) in mProducts"
+          v-for="(item, index) in wProducts"
           key="item"
           :item="item"
           :index="index"
@@ -32,8 +32,8 @@ export default {
     };
   },
   computed: {
-    mProducts() {
-      return this.$store.getters.men.filter(el =>
+    wProducts() {
+      return this.$store.getters.photo.filter(el =>
         this.$store.state.sale
           ? el.price < this.highprice && el.sale
           : el.price < this.highprice

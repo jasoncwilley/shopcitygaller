@@ -3,10 +3,10 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _444f3c92 = () => import('../pages/women.vue' /* webpackChunkName: "pages/women" */).then(m => m.default || m)
-const _0c3767cf = () => import('../pages/men.vue' /* webpackChunkName: "pages/men" */).then(m => m.default || m)
-const _ba440112 = () => import('../pages/cart.vue' /* webpackChunkName: "pages/cart" */).then(m => m.default || m)
 const _15e0591e = () => import('../pages/sale.vue' /* webpackChunkName: "pages/sale" */).then(m => m.default || m)
+const _076914ca = () => import('../pages/painting.vue' /* webpackChunkName: "pages/painting" */).then(m => m.default || m)
+const _ba440112 = () => import('../pages/cart.vue' /* webpackChunkName: "pages/cart" */).then(m => m.default || m)
+const _7c445deb = () => import('../pages/photo.vue' /* webpackChunkName: "pages/photo" */).then(m => m.default || m)
 const _7eadf88b = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
@@ -68,14 +68,14 @@ export function createRouter () {
     scrollBehavior,
     routes: [
 		{
-			path: "/women",
-			component: _444f3c92,
-			name: "women"
+			path: "/sale",
+			component: _15e0591e,
+			name: "sale"
 		},
 		{
-			path: "/men",
-			component: _0c3767cf,
-			name: "men"
+			path: "/painting",
+			component: _076914ca,
+			name: "painting"
 		},
 		{
 			path: "/cart",
@@ -83,9 +83,9 @@ export function createRouter () {
 			name: "cart"
 		},
 		{
-			path: "/sale",
-			component: _15e0591e,
-			name: "sale"
+			path: "/photo",
+			component: _7c445deb,
+			name: "photo"
 		},
 		{
 			path: "/",

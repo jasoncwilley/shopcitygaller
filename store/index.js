@@ -12,7 +12,7 @@ const createStore = () => {
           price: 149.99,
           category: 'photo',
           sale: true,
-          article: 'photo',
+          artist: 'rizzlow',
           img: 'cityrats.jpg'
         },
         {
@@ -20,7 +20,7 @@ const createStore = () => {
           price: 39.99,
           category: 'photo',
           sale: false,
-          article: 'photo',
+          artist: 'rizzlow',
           img: 'beaniepanda.jpg'
         },
         {
@@ -28,7 +28,7 @@ const createStore = () => {
           price: 49.99,
           category: 'photo',
           sale: true,
-          article: 'photo',
+          artist: 'rizzlow',
           img: 'drunkpanda.jpg'
         },
         {
@@ -36,15 +36,15 @@ const createStore = () => {
           price: 32.99,
           category: 'photo',
           sale: true,
-          article: 'photo',
+          artist: 'rizzlow',
           img: 'treetopflyer.jpg'
         },
         {
           name: 'Optimus Panda',
           price: 29.99,
-          category: 'toy',
+          category: 'painting',
           sale: false,
-          article: 'optimus panda',
+          artist: 'optimus panda',
           img: 'transformpanda.jpg'
         },
         {
@@ -52,62 +52,62 @@ const createStore = () => {
           price: 18.99,
           category: 'photo',
           sale: false,
-          article: 'photo',
+          artist: 'rizzlow',
           img: 'uptheredwood.jpg'
         },
         {
           name: 'Panda Globe',
           price: 28.99,
-          category: 'toy',
+          category: 'painting',
           sale: false,
-          article: 'toy glober',
+          artist: 'toy glober',
           img: 'logo.png'
         },
         {
           name: 'Chase the Rainbow',
           price: 49.99,
-          category: 'men',
+          category: 'painting',
           sale: false,
-          article: 'shirt',
+          artist: 'adaglance',
           img: 'shirt2.png'
         },
         {
           name: 'Living Walls',
           price: 59.99,
-          category: 'women',
+          category: 'painting',
           sale: true,
-          article: 'jacket',
+          artist: 'jaycdubbau',
           img: 'jacket3.png'
         },
         {
           name: 'Golden Sky',
           price: 129.99,
-          category: 'women',
+          category: 'photo',
           sale: false,
-          article: 'jacket',
+          artist: 'jaycdubbau',
           img: 'jacket4.png'
         },
         {
           name: 'Vandal Panda',
           price: 80.99,
-          category: 'women',
+          category: 'painting',
           sale: false,
-          article: 'jacket',
+          artist: 'jaycdubbau',
           img: 'sweater4.png'
         },
         {
-          name: 'Plymouth Rock',
+          name: 'Panda Gang',
           price: 59.99,
-          category: 'men',
+          category: 'painting',
           sale: true,
-          article: 'jacket',
+          artist: 'jaycdubbau',
           img: 'sweater5.png'
         }
       ]
     },
     getters: {
-      women: state => filter(state.products, 'category', 'women'),
-      men: state => filter(state.products, 'category', 'men'),
+      photo: state => filter(state.products, 'category', 'photo'),
+      painting: state => filter(state.products, 'category', 'painting'),
       sale: state => filter(state.products, 'sale', true)
     },
     mutations: {
